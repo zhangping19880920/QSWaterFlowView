@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6DE556A81C167A06007B3838 /* QSWaterFlowViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE556A71C167A06007B3838 /* QSWaterFlowViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DE556D11C167DC6007B3838 /* QSWaterFlowViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE556D01C167DC6007B3838 /* QSWaterFlowViewLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		6DE556DC1C170A61007B3838 /* QSWaterFlowViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE556DB1C170A61007B3838 /* QSWaterFlowViewLayout.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6DE556A41C167A06007B3838 /* QSWaterFlowViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSWaterFlowViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE556A71C167A06007B3838 /* QSWaterFlowViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSWaterFlowViewFramework.h; sourceTree = "<group>"; };
 		6DE556A91C167A06007B3838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DE556D01C167DC6007B3838 /* QSWaterFlowViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSWaterFlowViewLayout.swift; sourceTree = "<group>"; };
+		6DE556DB1C170A61007B3838 /* QSWaterFlowViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSWaterFlowViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,20 +48,20 @@
 		6DE556A61C167A06007B3838 /* QSWaterFlowViewFramework */ = {
 			isa = PBXGroup;
 			children = (
-				6DE556CD1C167A8B007B3838 /* Source */,
+				6DE556DA1C170A61007B3838 /* Source */,
 				6DE556A71C167A06007B3838 /* QSWaterFlowViewFramework.h */,
 				6DE556A91C167A06007B3838 /* Info.plist */,
 			);
 			path = QSWaterFlowViewFramework;
 			sourceTree = "<group>";
 		};
-		6DE556CD1C167A8B007B3838 /* Source */ = {
+		6DE556DA1C170A61007B3838 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6DE556D01C167DC6007B3838 /* QSWaterFlowViewLayout.swift */,
+				6DE556DB1C170A61007B3838 /* QSWaterFlowViewLayout.swift */,
 			);
 			path = Source;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE556D11C167DC6007B3838 /* QSWaterFlowViewLayout.swift in Sources */,
+				6DE556DC1C170A61007B3838 /* QSWaterFlowViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
